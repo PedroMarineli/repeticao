@@ -11,8 +11,13 @@ public class Main{
 
         int cont = 0;
         while(cont < 3) {
-            System.out.println(frutas[cont]);
-            cont++;
+            System.out.println(frutas[cont++]);
+        } while(cont2 < 3);
+
+        for(int i = 0;i < 3;i++) {
+            System.out.println(frutas[i]);
         }
+
+
     }
 }
