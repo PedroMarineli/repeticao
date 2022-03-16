@@ -6,5 +6,7 @@ public class Main{
         int novos[] = new int[10];
 
         String frutas[] = {"Laranja", "Abacaxi", "Uva"};
+
+        System.out.println(frutas[1]);
     }
 }
